@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  docker_springboot_app:
+    container_name: docker_springboot_app
+    build: './'
+    ports:
+      - 80:8080
+    volumes:
+      - ./:/home/springbootappname
