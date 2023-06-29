@@ -1,9 +1,9 @@
-version: '3.8'
+version: '3.3'
 services:
   docker_springboot_app:
     container_name: springboot_docker_liveserver
-    build: './'
+    build: './springboot_app'
     ports:
-      - 80:8080
+      - 81:8080
     volumes:
-      - ./:/home/springboot_docker_liveserver
+      - ./springboot_app:/home/springboot_app
