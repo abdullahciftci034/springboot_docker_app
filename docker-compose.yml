@@ -6,4 +6,4 @@ services:
     ports:
       - 81:8080
     volumes:
-      - ./springboot_app:/home/springboot_app
+      - ./springboot_app/app:/home/springboot_app

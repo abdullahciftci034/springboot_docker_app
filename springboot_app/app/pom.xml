@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springbootapp</groupId>
-	<artifactId>springboot_app</artifactId>
+	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot_app</name>
+	<name>app</name>
 	<description>Spring Boot Docker App</description>
 	<properties>
 		<java.version>1.8</java.version>
